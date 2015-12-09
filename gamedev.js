@@ -48,7 +48,7 @@ $( document ).ready(function() {
 	$("#goLeft-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/enemy2.jpg')");
 		$("#goLeft3").hide();
-		$("#goBack").show();
+		$("#goBack").hide();
 	});
 
 
