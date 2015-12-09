@@ -40,20 +40,20 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/enemy1.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft3").show();
 	});
 
 	$("#goLeft-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/enemy2.jpg')");
 		$("#goLeft3").hide();
 		$("#goBack").show();
 	});
 
 
 	$("#goBack").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/enemy3.jpg')");
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
