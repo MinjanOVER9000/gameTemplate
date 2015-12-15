@@ -60,5 +60,8 @@ $( document ).ready(function() {
 	});
 
 
+	$("#goBack").click(function() {
+		$("#exploreBody").css("background-image", "url('img/enemy3background.jpg')");
+
 
 });
