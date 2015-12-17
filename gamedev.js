@@ -57,10 +57,11 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		$("#!").show();
 	});
 
 
-	$("#goBack").click(function() {
+	$("kill").click(function() {
 		$("#exploreBody").css("background-image", "url('img/enemy3background.jpg')");
 
 
