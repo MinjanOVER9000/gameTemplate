@@ -148,3 +148,13 @@ display: inline;
     margin: 20px;
     font-size:0.6em;
 }
+
+#kill {
+    left: 50%;
+    bottom: 50%;
+    right: 50%;
+    top: 50%;
+    width: 10000px;
+    height: 10000px;
+    display: inline;
+}
